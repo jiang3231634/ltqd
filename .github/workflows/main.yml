@@ -6,7 +6,7 @@ on:
   gollum:
   workflow_dispatch:
   schedule:
-    - cron: '20 15,18,22,1 * * *'
+    - cron: '55 15,18,21 * * *'
     
 
 jobs:
