@@ -368,7 +368,7 @@ var producGame = {
         for (let game of games) {
             queue.add(async () => {
                 console.info(game.name)
-                if (game.qqMark === "N") {
+                //if (game.qqMark === "N") {
                     await producGame.gameverify(axios, {
                         ...options,
                         jar,
