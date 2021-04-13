@@ -369,11 +369,6 @@ var producGame = {
             queue.add(async () => {
                 console.info(game.name)
                 if (game.qqMark === "N") {
-                    await require('./xiaowogameh5').playGame(axios, {
-                        ...options,
-                        game
-                    })
-                } else {
                     await producGame.gameverify(axios, {
                         ...options,
                         jar,
@@ -384,7 +379,6 @@ var producGame = {
                         jar,
                         game
                     })
-                }
             })
         }
 
