@@ -1,9 +1,6 @@
 name: daily-task
 
 on:
-  push:
-    branches: main
-  gollum:
   workflow_dispatch:
   schedule:
     - cron: '5 16,23,4 * * *'
